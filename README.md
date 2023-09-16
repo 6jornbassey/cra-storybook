@@ -1,3 +1,4 @@
+[![CI workflow](https://github.com/6jornbassey/cra-storybook/actions/workflows/ci.yml/badge.svg)](https://github.com/6jornbassey/cra-storybook/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/github/6jornbassey/cra-storybook/graph/badge.svg?token=TY1MWHV7HM)](https://codecov.io/github/6jornbassey/cra-storybook)
 # Getting Started with Create React App
 
