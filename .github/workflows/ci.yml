@@ -7,7 +7,7 @@ on: push
 jobs: 
   test:
     #runner
-    runds-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
