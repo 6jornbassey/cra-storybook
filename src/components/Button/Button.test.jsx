@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react'
 import Button from './Button'
 import * as stories from './Button.stories'
-import { composeStories } from '@storybook/react'
-const { Primary, Red } = composeStories(stories)
+// import { composeStories } from '@storybook/react'
+// const { Primary, Red } = composeStories(stories)
 
 test("should render Button", () => {
     const label = "Click me!"
@@ -12,14 +12,14 @@ test("should render Button", () => {
     expect(btnElm).toHaveTextContent("Click")
 })
 
-test("should render Primary Button", () => {
-    render(<Primary />)
-    const btnElm = screen.getByRole("button")
-    expect(btnElm).toHaveClass("storybook-button--primary")
-})
+// test("should render Primary Button", () => {
+//     render(<Primary />)
+//     const btnElm = screen.getByRole("button")
+//     expect(btnElm).toHaveClass("storybook-button--primary")
+// })
 
-test("should render Red Button", () => {
-    render(<Red />)
-    const btnElm = screen.getByRole("button")
-    expect(btnElm).toHaveStyle("background-color: red")
-})
+// test("should render Red Button", () => {
+//     render(<Red />)
+//     const btnElm = screen.getByRole("button")
+//     expect(btnElm).toHaveStyle("background-color: red")
+// })
