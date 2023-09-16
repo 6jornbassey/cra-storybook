@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import Button from './Button'
 import * as stories from './Button.stories'
-import { composeStories } from '@storybook/testing-react'
+import { composeStories } from '@storybook/react'
 const { Primary, Red } = composeStories(stories)
 
 test("should render Button", () => {
