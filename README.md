@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/6jornbassey/cra-storybook/graph/badge.svg?token=TY1MWHV7HM)](https://codecov.io/github/6jornbassey/cra-storybook)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
