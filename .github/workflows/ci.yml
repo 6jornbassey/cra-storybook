@@ -27,7 +27,7 @@ jobs:
           run: npm install
 
         - name: Run the tests
-          run: npm test
+          run: npm test -- --coverage --collectCoverageFrom="./src/**"
 
         - name: Upload code coverage to Codecov
           uses: codecov/codecov-action@v2
